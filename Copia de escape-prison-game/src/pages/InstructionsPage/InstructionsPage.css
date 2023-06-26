@@ -1,0 +1,80 @@
+.instructions-container {
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem 2rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    min-height: 40vh;
+    max-height: 40vh;
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+}
+
+.instructions-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 25%; */
+    min-height: 10vh;
+    max-height: 10vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.instructions-content {
+    display: flex;
+    height: 75%;
+    margin-top: 10vh;
+}
+
+.instructions-text {
+    display: flex;
+    align-items: center;
+    width: 75%;
+    padding-right: 1.5rem;
+}
+
+.instructions-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+}
+
+.instruction {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #2c2c2c;
+    text-align: center;
+}
+
+.navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 40vw;
+}
+
+.nav-button {
+    background-color: #007bff;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nav-button:hover {
+    background-color: #007bff;
+}
