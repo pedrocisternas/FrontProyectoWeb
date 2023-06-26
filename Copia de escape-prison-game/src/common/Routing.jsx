@@ -4,6 +4,7 @@ import LandingPage from '../pages/LandingPage/LandingPage';
 import MainPage from '../pages/MainPage/MainPage';
 import TeamPage from '../pages/TeamPage/TeamPage';
 import InstructionsPage from '../pages/InstructionsPage/InstructionsPage';
+import GamePage from '../pages/GamePage/GamePage';
 
 function Routing(){
     return (
@@ -13,6 +14,7 @@ function Routing(){
                 <Route path={"/main"} element={<MainPage />} />
                 <Route path={"/team"} element={<TeamPage />} />
                 <Route path={"/instructions"} element={<InstructionsPage />} />
+                <Route path={"/game"} element={<GamePage />} />
             </Routes>
         </BrowserRouter>
     )

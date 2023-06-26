@@ -1,0 +1,36 @@
+.hex {
+    box-sizing: border-box;
+    height: 60px;
+    width: 60px;
+    position: relative;
+    border-radius: 100%;
+}
+
+.hex-top,
+.hex-middle,
+.hex-bottom {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    box-sizing: border-box;
+    width: 34.64px;
+    height: 100%;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.hex-top {
+    transform: rotate(90deg);
+}
+
+.hex-middle {
+    transform: rotate(150deg);
+    transform-origin: center center;
+}
+
+.hex-bottom {
+    transform: rotate(210deg);
+    transform-origin: center center;
+}
